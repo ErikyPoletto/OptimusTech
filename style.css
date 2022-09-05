@@ -1,0 +1,26 @@
+@import url(./styles/header.css);
+@import url(./styles/banner.css);
+@import url(./styles/metricas.css);
+@import url(./styles/talentos.css);
+@import url(./styles/vagas.css);
+@import url(./styles/depoimento.css);
+@import url(./styles/footer.css);
+
+:root{
+    --branco: #ffffff;
+    --preto: #000000;
+    --cinza: #667085;
+    --cinza-chumbo:#98A2B3;
+    --cinza-chumbo-claro:#F9FAFB;
+    --cinza-claro: #EAECF0;
+    --vermelho-vinho: #8E2424;
+    --vermelho-vinho-transparente: #8E24240D;
+    --vermelho-transparente: #C3191908;
+    --azul-escuro: #101828;
+}
+
+body{
+    font-family: Inter, 'sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+}

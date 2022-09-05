@@ -1,0 +1,27 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 8em 0;
+}
+
+.banner__titulo{
+    font-size: 48px;
+    font-weight: 600;
+    padding: 0.5em 0;
+}
+
+.banner .sobre{
+    color: var(--vermelho-vinho);
+    font-weight: 600;
+}
+
+.banner__texto{
+    color: var(--cinza);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.cards{
+    display: flex;
+}

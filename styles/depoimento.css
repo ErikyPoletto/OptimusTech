@@ -1,0 +1,36 @@
+.depoimento{
+    padding: 5em 10em;
+}
+
+.container__depoimento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: var(--vermelho-transparente);
+    padding: 3em;
+}
+
+.depoimento__titulo{
+    font-weight: 600;
+    color: var(--vermelho-vinho);
+}
+
+.depoimento__texto{
+    color: var(--azul-escuro);
+    font-size: 36px;
+    font-weight: 500; 
+    width: 80%;
+    margin: 0.9em 0;
+}
+
+.depoimento_nome{
+    font-weight: 500;
+    color: var(--azul-escuro);
+    margin: 1em 0 0.5em 0;
+}
+
+.depoimento_profissao{
+    color: var(--cinza);
+}
